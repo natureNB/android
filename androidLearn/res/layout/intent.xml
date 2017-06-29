@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button android:id="@+id/activity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity1">
+    </Button>
+    <Button android:id="@+id/activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="activity2">
+    </Button>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <Button android:id="@+id/service1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="service1">
+	    </Button>
+	    <Button android:id="@+id/service2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="service2">
+	    </Button>
+    </LinearLayout>
+</LinearLayout>
